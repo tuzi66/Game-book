@@ -89,11 +89,14 @@ public class MainPanel extends JPanel {
 
 			}
 		}
-		a[i] = total - 1;
-		System.out.println("图片的初始顺序为");
-		for (i = 0; i < total; i++) {
-			System.out.println(a[i] + "");
-		}
+		/**
+		 * 图片初始顺序打印
+		 */
+//		a[i] = total - 1;
+//		System.out.println("图片的初始顺序为");
+//		for (i = 0; i < total; i++) {
+//			System.out.println(a[i] + "");
+//		}
 	}
 
 	public void remove(Button clicked) {
